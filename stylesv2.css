@@ -71,11 +71,6 @@ body{
   color: white;
 }
 
-.button:hover {
-  color: white;
-  opacity:0.8;
-}
-
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
