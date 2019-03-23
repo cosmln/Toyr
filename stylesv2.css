@@ -22,11 +22,6 @@ body{
   border-radius: 4px;
 }
 
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
 .button {
   border-radius: 14px;
   color: white;
@@ -53,11 +48,7 @@ body{
     text-align: left;
   }
  }
- body{
-  margin: 0;
-  font-family: Arial, sans-serif
 
-}
 .header {
   overflow: hidden;
   padding: 20px 10px;
@@ -78,11 +69,6 @@ body{
 .header a.active {
   background-color: dodgerblue;
   color: white;
-}
-
-.button:hover {
-  color: white;
-  opacity:0.8;
 }
 
 @media screen and (max-width: 500px) {
