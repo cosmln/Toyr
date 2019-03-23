@@ -203,21 +203,22 @@ hr {
   width: 83vw;
   height: 100vh;
   margin-top: 20px;
+  overflow: auto;
 }
 
 .arrange{
   float: left;
   box-sizing: content-box ;
     border: 2px solid rgb(106, 68, 150);
-    width: 36vw;
-    height: 36vh;
-    margin-left: 3vw;
+    width: 30vw;
+    height: 30vh;
+    margin-left: 8vw;
     margin-top: 5vh;
     text-align: center;
 }
 .arrangev2{
   color: white;
-  padding: 19px;
+  padding: 17px;
   text-decoration: none;
   font-size: 18px; s
   line-height: 25px;
