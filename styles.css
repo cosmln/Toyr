@@ -19,7 +19,7 @@ body{
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; s
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -29,7 +29,7 @@ body{
   color: white;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; s
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
   text-align: center;
@@ -188,7 +188,7 @@ hr {
 }
 
 .my-float{
-  margin-top:22px;`
+  margin-top:22px;
 }
 .bar{
   float: left;
@@ -211,9 +211,9 @@ hr {
   float: left;
   box-sizing: content-box ;
     border: 2px solid rgb(106, 68, 150);
-    width: 30vw;
+    width: 25vw;
     height: 30vh;
-    margin-left: 8vw;
+    margin-left: 10vw;
     margin-top: 2vh;
     margin-bottom:4vh;
     text-align: center;
@@ -222,27 +222,26 @@ hr {
   color: white;
   padding: 17px;
   text-decoration: none;
-  font-size: 18px; s
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   cursor: pointer;
   box-sizing: border-box;
 }
 
 .visual{
   box-sizing: content-box ;
-  height:25vh;
-  width: 28vw;
+  height:23vh;
+  width: 23vw;
   margin-top: 2vh;
 }
 
 .Footer
     {
         width: 100%;
-        height: 4%;
+        height: 3.5%;
         -moz-border-radius: 35px;
         border-radius: 35px;
         background-color: #3d3393;
@@ -250,6 +249,5 @@ hr {
         color:whitesmoke;
         position: fixed;
         bottom: 0;
-        text-align: center;
-        margin-right: auto;
+        text-align: center;   
     }
