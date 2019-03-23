@@ -95,17 +95,7 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-button {
-  background-color: rgb(4, 122, 8);
-  color: black;
-  padding: 10px 15px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
+.signupbtn :hover {
   color:white;
   opacity:0.8;
 }
@@ -120,6 +110,8 @@ button:hover {
 }
 
 .signupbtn {
+  padding: 10px 10px;
+  background-color: green;
   float: left;
   margin: 0;
   width: 40%;
@@ -143,6 +135,7 @@ button:hover {
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.4); 
   padding-top: 10px;
+  overflow: auto;
 }
 
 .modal-content {
@@ -194,5 +187,51 @@ hr {
 }
 
 .my-float{
-  margin-top:22px;
+  margin-top:22px;`
+}
+.bar{
+  float: left;
+  display: block;
+  width: 14vw;
+  height: 100vh;
+  margin-top: 20px;
+
+}
+.products{
+  float: right;
+  display: inline-block;
+  width: 83vw;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.arrange{
+  float: left;
+  box-sizing: content-box ;
+    border: 2px solid rgb(106, 68, 150);
+    width: 36vw;
+    height: 36vh;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    text-align: center;
+}
+.arrangev2{
+  color: white;
+  padding: 19px;
+  text-decoration: none;
+  font-size: 18px; s
+  line-height: 25px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.visual{
+  box-sizing: content-box ;
+  height:25vh;
+  width: 36vw;
+  margin-top: 2vh;
 }
