@@ -1,7 +1,7 @@
-let modal_login = document.getElementById('login');
+let modal-window = document.getElementById('open-modal');
 
 window.onclick = function(event) {
-    if (event.target === modal_login) {
-        modal_login.style.display = "none";
+    if (event.target === modal_window) {
+        modal-window.style.display = "none";
     }
 };
