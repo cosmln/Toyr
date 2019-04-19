@@ -1,0 +1,48 @@
+Introducere
+
+Acest document este destinat sa descrie cu exactitate capacitatile pe care trebuie sa le furnizeze
+produsul nostru software utilizatorilor finali si sa specifice, de asemenea, toate cerintele
+nefunctionale pe care aplicatia ar trebui sa le puna in aplicare in ceea ce priveste subiecte precum:
+performanta, fiabilitate, securitate, etc.
+
+
+
+ShopCart doreste a fi o aplicatie web ce isi propune gestionarea produselor utilizatorilor pe
+parcursul vizitei unui magazinului online. Aplicatia pune la dispozitia persoanelor o modalitate
+de a vedea lista cu produsele disponibile din respectivul magazin si o modalitate de a selecta 
+unul sau mai multe produse dintr-un domeniu organizat pe categorii specifice, toate fiind salvate
+intr-o lista de cumparaturi. 
+
+
+Actori & Obiective
+
+Angajat
+
+Sunt persoane ce lucreaza in cadrul magazinului online. 
+Prin accesul lor cu ajutorul drepturilor de administrator, vor beneficia de statistici si unelte organizatorice
+precum: stabilirea reducerilor, promovarea anumitor produse, furnizarea produselor cand stocul s-a terminat etc. 
+Astfel acestia pot si face urmatoarele operatii pe baza de date:
+• Adaugarea unui nou produs in baza de date
+• Eliminarea produsului din baza de date
+• Promovarea unui produs prin adaugarea de preferinte
+
+3.1.2 Cumparator
+Cumparatorii sunt clientii magazinului online. 
+Acestia pot face urmatoarele operatii:
+• Autentificarea sau creearea unui cont nou de utilizator
+• Completarea sau editarea adresei de livrare
+• Selectarea produselor din cadrul magazinului
+• Gestionarea cosului de cumparaturi
+• Finalizarea sau anularea unei comenzi.
+
+
+Utilizand aceasta aplicatie se anticipeaza ca perioada de vizita a unui cumparator sa fie rapida si
+placuta astfel incat utilizatorul sa poate face o decizie corecta si usora. Avand ca scop satisfacerea
+cumparatorului astfel incat si magazinul online sa beneficieze de acest lucru. Astfel aplicatia trebuie
+sa dispuna de actualizare in timp real, iar comunicarea cu baza de date este esentiala. Securitatea se 
+realizeaza prin utilizarea de chei hash.
+
+
+Tehnologii folosite
+Pentru creearea, popularea si intretinerea bazei de date vom folosi SQL\PLSQL.
+Pentru creearea serverului si a aplicatiei web vom folosi PHP\HTML\CSS.
