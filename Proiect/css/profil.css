@@ -4,7 +4,7 @@
   margin: auto;
   text-align: center;
   background-color: ghostwhite;
-  margin-top: 2%; 	
+  margin-top: 1%; 	
 }
 
 .title {
@@ -22,7 +22,7 @@
 	border: none;
 	outline: 0;
 	display: inline-block;
-	padding: 8px;
+	padding: 4px;
 	color: white;
 	background-color: #000;
 	text-align: center;
@@ -40,4 +40,9 @@
 
 .change a:hover{
 	opacity: 0.7;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
 }
