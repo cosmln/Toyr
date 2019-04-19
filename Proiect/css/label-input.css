@@ -70,7 +70,9 @@ hr {
 }
 
 button {
-    background-color: #3c4a55;
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980); 
+    background: linear-gradient(to right, #26D0CE, #1A2980);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;

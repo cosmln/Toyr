@@ -4,17 +4,6 @@
     margin: 0;
 }
 
-
-div .header-right {
-    float: right;
-}
-div .header-center{
-	justify-content: center;
-	top: 100%;
-	left: 50%;
-}
-
-
 body{
   margin: 0;
   background-image: url(../image/toys.png);
