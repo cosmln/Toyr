@@ -44,3 +44,9 @@ body{
     clear: both;
     display: table;
 }
+
+.text {
+    color: black;
+  font-size: 30px;
+  background-color: ghostwhite;	
+}
