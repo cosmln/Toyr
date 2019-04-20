@@ -48,4 +48,4 @@ Pentru creearea, popularea si intretinerea bazei de date vom folosi SQL\PLSQL.
 Pentru creearea serverului si a aplicatiei web vom folosi PHP\HTML\CSS.
 
 
-API:jump seller
+API: jumpseller / ebay shopping api (utilaztorul va cauta spre exemplu produsul "urs de plus", prin intermediul api-ului se va cauta in baza de date a celor de la ebay si aplicatia va returna produsele gasite dupa cuvinte cheie.)
