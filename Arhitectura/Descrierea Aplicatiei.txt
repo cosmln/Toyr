@@ -22,18 +22,18 @@ Sunt persoane ce lucreaza in cadrul magazinului online.
 Prin accesul lor cu ajutorul drepturilor de administrator, vor beneficia de statistici si unelte organizatorice
 precum: stabilirea reducerilor, promovarea anumitor produse, furnizarea produselor cand stocul s-a terminat etc. 
 Astfel acestia pot si face urmatoarele operatii pe baza de date:
-• Adaugarea unui nou produs in baza de date
-• Eliminarea produsului din baza de date
-• Promovarea unui produs prin adaugarea de preferinte
+â€¢ Adaugarea unui nou produs in baza de date
+â€¢ Eliminarea produsului din baza de date
+â€¢ Promovarea unui produs prin adaugarea de preferinte
 
 3.1.2 Cumparator
 Cumparatorii sunt clientii magazinului online. 
 Acestia pot face urmatoarele operatii:
-• Autentificarea sau creearea unui cont nou de utilizator
-• Completarea sau editarea adresei de livrare
-• Selectarea produselor din cadrul magazinului
-• Gestionarea cosului de cumparaturi
-• Finalizarea sau anularea unei comenzi.
+â€¢ Autentificarea sau creearea unui cont nou de utilizator
+â€¢ Completarea sau editarea adresei de livrare
+â€¢ Selectarea produselor din cadrul magazinului
+â€¢ Gestionarea cosului de cumparaturi
+â€¢ Finalizarea sau anularea unei comenzi.
 
 
 Utilizand aceasta aplicatie se anticipeaza ca perioada de vizita a unui cumparator sa fie rapida si
@@ -46,3 +46,6 @@ realizeaza prin utilizarea de chei hash.
 Tehnologii folosite
 Pentru creearea, popularea si intretinerea bazei de date vom folosi SQL\PLSQL.
 Pentru creearea serverului si a aplicatiei web vom folosi PHP\HTML\CSS.
+
+
+API:jump seller
